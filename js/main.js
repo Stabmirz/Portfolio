@@ -85,7 +85,7 @@
 							}
 
 							el.removeClass('item-animate');
-						},  k * 20, 'easeInOutExpo' );
+						},  k * 200, 'easeInOutExpo' );
 					});
 					
 				}, 100);
