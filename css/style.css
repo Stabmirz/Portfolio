@@ -1428,11 +1428,3 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
-
-.name{
-  padding:20px;
-}
-
-.name:hover{
-  color : #f70077;
-}
