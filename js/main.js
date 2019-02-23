@@ -309,4 +309,8 @@
 
 }());
 
+// $("img").click(function(){
+// 	this.classList.toggle("expanded");
+// 	this.parentNode.classList.remove('expanded');
+// });
 
