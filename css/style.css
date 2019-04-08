@@ -705,7 +705,7 @@ h3.title {
 }
 @media(max-width:1024px){
 #crazy_boy{
-    left:95vw;
+    left:80vw;
 }
 .header-right h1 {
     font-size: 2.3em;
@@ -1050,9 +1050,6 @@ p {
 }
 }
 @media(max-width:375px){
-#crazy_boy{
-    left:80vw;
-}
 .lang{
     margin-top:30px; 
 }
@@ -1376,3 +1373,13 @@ h3.title {
     }
 }
 
+@media(max-width:360px){
+    #crazy_boy{
+        left:80vw;
+    }
+}
+@media(max-width:414px){
+    #crazy_boy{
+        left:80vw;
+    }
+}
