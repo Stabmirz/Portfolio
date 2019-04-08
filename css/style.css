@@ -704,6 +704,9 @@ h3.title {
 }
 }
 @media(max-width:1024px){
+#crazy_boy{
+    left:95vw;
+}
 .header-right h1 {
     font-size: 2.3em;
 }
@@ -1011,6 +1014,9 @@ p {
 }
 }
 @media(max-width:414px){
+#crazy_boy{
+    left:80vw;
+}
 .lang{
     margin-top:30px; 
 }
@@ -1044,6 +1050,9 @@ p {
 }
 }
 @media(max-width:375px){
+#crazy_boy{
+    left:80vw;
+}
 .lang{
     margin-top:30px; 
 }
@@ -1275,6 +1284,9 @@ h3.title {
     .lang{
         margin-top:30px; 
     }
+    #crazy_boy{
+        left:75vw;
+    }
 }
 
 .pic{
@@ -1327,4 +1339,40 @@ h3.title {
     top: 0;
     z-index: 100;
 } */
+
+#crazy_boy{
+    position: fixed;
+    left: 90vw;
+    /* right: 90vw; */
+    top: -80px;
+    margin: auto;
+    background: url('../images/crazy_boy.png') 0 0 no-repeat;
+    width: 71px;
+    height: 80px;
+    background-size: 216px 240px;
+    transition: top 1s ease;
+    z-index: 100;
+}
+
+.animate{
+    animation: move 1s steps(3) infinite;
+}
+
+@keyframes move{
+    from{
+        background-position-x: 0;
+    }
+    to{
+        background-position-x: -216px;
+    }
+}
+
+@keyframes jump{
+    from{
+        background-position-y: 0;
+    }
+    to{
+        background-position-y: -240px;
+    }
+}
 
