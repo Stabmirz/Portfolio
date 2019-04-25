@@ -1296,30 +1296,6 @@ h3.title {
     margin-bottom: 45px;
 }
 
-/* #slideshow {
-    overflow: hidden;
-    height: 510px;
-    width: 900px;
-    margin: 0 auto;
-}
-  
-.slide-wrapper {
-    width: 1800px;
-    -webkit-animation: slide 15s ease infinite;
-}
-  
-.slide {
-    float: left;
-    height: 510px;
-    width: 900px;
-}
-  
-@-webkit-keyframes slide {
-    30% {margin-left: 0px;}
-    60% {margin-left: -900px;}
-    90% {margin-left: -900px;}
-} */
-
 /* .bk{
     background:url(../images/bk.png)no-repeat center;
     -webkit-background-size:cover;
