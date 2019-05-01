@@ -1359,3 +1359,7 @@ h3.title {
         left:80vw;
     }
 }
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background: #222;
+}
